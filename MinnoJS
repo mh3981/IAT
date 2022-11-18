@@ -14,7 +14,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
     			{word : 'people'}, 
     			{word : 'humanity'}, 
     			{word : 'person'}, 
-    			{word : 'individual'}, 
+    			{word : 'individual'} 
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -43,7 +43,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'peter'},
 				{word: 'alan'},
 				{word: 'robert'},
-				{word: 'daniel'},
+				{word: 'daniel'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
@@ -71,7 +71,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 				{word: 'sandra'},
 				{word: 'ann'},
 				{word: 'susan'},
-				{word: 'kate'},
+				{word: 'kate'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
