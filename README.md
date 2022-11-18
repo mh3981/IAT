@@ -1,6 +1,4 @@
-# IAT
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){
-	
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js'], function(APIConstructor, stiatExtension){	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
@@ -21,7 +19,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
 		  },	
-
   		attribute1 : 
 			{
 			name : 'Unpleasant', //Attribute label
