@@ -3,19 +3,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Black people', //Will appear in the data.
+		    name : 'person', //Will appear in the data.
 		    title : {
 		      media : {word : 'Black people'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
 		    media : [ //Stimuli content as PIP's media objects
-    		    	{image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
+    		    	{word : 'human'}, 
+    			{word : 'individual'}, 
+    			{word : 'person'}, 
+    			{word : 'humanity'}, 
+    			{word : 'people'} 
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -23,38 +22,56 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qua
 
   		attribute1 : 
 			{
-			name : 'Unpleasant', //Attribute label
+			name : 'male', //Attribute label
 			title : {
-				media : {word : 'Negative'}, //Name of the category presented in the task.
+				media : {word : 'male'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Bomb'},
-				{word: 'Abuse'},
-				{word: 'Sadness'},
-				{word: 'Pain'},
-				{word: 'Poison'},
-				{word: 'Grief'}
+				{word: 'brian'},
+				{word: 'mathew'},
+				{word: 'paul'},
+				{word: 'scott'},
+				{word: 'eric'},
+				{word: 'greg'},
+				{word: 'kevin'},
+				{word: 'steve'},
+				{word: 'john'},
+				{word: 'mark'},
+				{word: 'jason'},
+				{word: 'peter'},
+				{word: 'alan'},
+				{word: 'robert'},
+				{word: 'daniel'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
 			},
 		attribute2 : 
 			{
-			name : 'Pleasant', //Attribute label
+			name : 'female', //Attribute label
 			title : {
-				media : {word : 'Positive'}, //Name of the category presented in the task.
+				media : {word : 'female'}, //Name of the category presented in the task.
 				css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 				height : 7 //Used to position the "Or" in the combined block.
 			}, 
 			media : [ //Stimuli
-				{word: 'Paradise'},
-				{word: 'Pleasure'},
-				{word: 'Cheer'},
-				{word: 'Wonderful'},
-				{word: 'Splendid'},
-				{word: 'Love'}
+				{word: 'beth'},
+				{word: 'lisa'},
+				{word: 'meg'},
+				{word: 'marcia'},
+				{word: 'elaine'},
+				{word: 'gwen'},
+				{word: 'sara'},
+				{word: 'diane'},
+				{word: 'karen'},
+				{word: 'laurel'},
+				{word: 'eva'},
+				{word: 'sandra'},
+				{word: 'ann'},
+				{word: 'susan'},
+				{word: 'kate'}
 			], 
 			//Can change color and size of the targets here.
 			css : {color:'#31b404','font-size':'3em'}
